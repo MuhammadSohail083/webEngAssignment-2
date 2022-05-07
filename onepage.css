@@ -1,0 +1,256 @@
+.header {
+  overflow: hidden;
+  background-color: #d279a6;
+  padding: 3px 3px;
+}
+.navright ul li a{
+float: right;
+
+}
+body{
+  margin: 0px;
+}
+
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: black;
+  font-size: 40px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+}
+
+
+.nav-item a{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 10px;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+
+.title {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+
+.header a:hover {
+  background-color: royalblue;
+  color: white;
+  font-size: 22px;
+} 
+
+
+.footer {
+  position:static;
+  left: 0.5%;
+  bottom: 1%;
+  width: 99%;
+  background-color: #d279a6;
+  color: white;
+  text-align: center;
+  padding: 3px 3px;
+}
+.maindiv{
+ background-color:#f5ecf1 ;
+}
+
+
+
+.move::after{
+  content: '';
+  animation: moving 10s infinite linear;
+  color: rgb(66, 27, 238);
+  font-style: italic;
+  }
+  @keyframes moving{
+   0%{content:"Software Engineer";}
+   25%{content:"A Freelancer";}
+   50%{content:".Net Developer";}
+   75%{content:"Student at BUKC";}
+   100%{content:"Front End Developer";}
+  }
+
+#home{
+  background-color: #f8e2ee;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.h1{
+  font-size:40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 30px 30px;
+  
+ }
+.p1{
+  font-size:40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.div1{
+  width: 500px;
+  height: 500px;
+  box-sizing: border-box;
+}
+.div2{
+  width: 500px;
+  height: 500px;
+}
+
+ img{
+   width: 400px;
+   height: 400px;
+   padding: 20px 50px;
+   border-radius: 100px;
+ }
+
+#about{
+  background-color: #f8e2ee;
+ font-size: 25px;
+}
+
+#projects{
+  background-color: #f8e2ee;
+ 
+}
+.projectsdivmain{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 30px ;
+}
+
+.projectsdiv1{
+  background-image:url('Images/projecct1.PNG');
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  border-radius: 40px;
+  padding: 50px 50px;
+  margin: 30px 20px;
+}
+.projectsdiv1 a{
+  background-color: #d279a6;
+  color:white;
+}
+
+.projectsdiv2{
+  background-image:url('Images/project2.PNG');
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  padding: 50px 50px;
+  margin: 30px 20px;
+}
+.projectsdiv2 a{
+  background-color: #d279a6;
+  color:white;
+}
+
+.projectsdiv3{
+  background-image:url('Images/project3.PNG');
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  padding: 50px 50px;
+  margin: 30px 20px;
+}
+.projectsdiv3 a{
+  background-color: #d279a6;
+  color:white;
+}
+
+
+.btn{
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  border-radius: 20px;
+  justify-content: center;
+ }
+ .btn:hover{
+   background-color: royalblue;
+   color: black;
+ }
+
+#contact{
+  background-color: #f8e2ee;
+}
+
+a button{
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  border: none; 
+  background-color:#d279a6; 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+}
+a button:hover{
+  background-color: royalblue;
+  color: black;
+}
+
+.click{
+ background-color: #d279a6;
+ text-decoration: none;
+ font-size: 30px;
+ color: white;
+ border-radius: 30px;
+ padding: 10px;
+}
+.click:hover{
+  background-color: royalblue;
+  color: black;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px ; 
+  border: 1px solid rgb(15, 15, 15); 
+  border-radius: 10px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+.submitbtn{
+  font-size: 25px;
+  background-color: #d279a6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 50px;
+  width: 150px;
+}
+
+.submitbtn:hover {
+  background-color: royalblue;
+  color: black;
+}
+
+
+.contactform {
+  border-radius: 5px;
+  padding: 20px;
+  border: 2px solid rgb(15, 15, 15); 
+}
