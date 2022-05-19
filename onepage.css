@@ -3,35 +3,31 @@
   background-color: #d279a6;
   padding: 3px 3px;
 }
-.navright ul li a{
-float: right;
 
-}
-body{
-  margin: 0px;
+
+* body{
+  margin: 0%;
 }
 
 .clock {
-  position: absolute;
+  position:sticky;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-10%) translateY(0%);
   color: black;
   font-size: 40px;
-  font-family: Orbitron;
-  letter-spacing: 7px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 4px;
 }
 
 
 .nav-item a{
-  float: left;
-  color: white;
   text-align: center;
-  padding: 10px;
+  padding: auto;
   text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 10px;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 50px;
   justify-content: space-between;
   text-transform: uppercase;
 }
